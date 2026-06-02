@@ -1,0 +1,122 @@
+
+PI11A 99 さとうしょうこ　←自分のクラス出席番号名前ね
+
+P69-70 Lesson3
+
+問題3-5は、eclipseで実行してみて教科書と同じ結果になったら
+ソースコードをコピーしよう
+
+★問題1
+
+１　x
+２　x
+３　x
+
+
+★問題2
+x
+
+
+★問題3 型の変換を使ってみよう！
+
+package jp.ac.hal;
+
+
+
+
+import java.io .*;
+public class sum4 
+
+
+
+{
+public static void main(String[] args)
+throws IOException
+{
+System.out.println("円周率の値はいくつですか?");
+
+BufferedReader br =
+new BufferedReader (
+new InputStreamReader(System.in));
+String str = br.readLine();
+double num = Double.parseDouble(str);
+
+System.out.println("円周率の値はいくつ " + num + "です" );
+}
+}
+
+★問題4 型の変換を使ってみよう！
+
+package jp.ac.hal;
+
+
+
+
+import java.io .*;
+
+class Sample4
+{
+public static void main(String[] args)
+throws IOException
+{
+System.out.println("あなたの年齢は?");
+
+BufferedReader br =
+new BufferedReader (
+new InputStreamReader(System.in));
+String str = br.readLine();
+int num = Integer.parseInt(str);
+
+System.out.println( num +"あなたの年齢は"
+		+ ":"+str);
+}
+
+★問題5 型の変換を使ってみよう！
+
+package jp.ac.hal;
+
+ 
+
+
+import java.io.*;
+public class sum5
+{
+public static void main(String[] args) throws IOException
+{
+System.out.println("身長と体重を入力してください。");
+
+BufferedReader br =
+
+new BufferedReader(new InputStreamReader(System.in));
+
+String str1 = br.readLine();
+
+String str2= br.readLine();
+
+double num1= Double.parseDouble(str1);
+
+double num2 = Double.parseDouble(str2);
+
+System.out.println("身長は" + num1 + "センチです。");
+
+System.out.println("体重は" + num2 + "キロです。");
+}
+}
+
+-- 計5問
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
