@@ -37,3 +37,36 @@ public static void main ( String[] args) throws IOException
       (res<= 60)
     	  System.out.println( "不合格");
 }}
+
+
+
+package jp.ac.hal;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class sum2 {
+
+
+public static void main ( String[] args) throws IOException
+{
+	System.out.println("落札価格を入力してください:");
+	BufferedReader br=
+			new BufferedReader (new InputStreamReader (System.in));
+	String str =br.readLine();
+
+	int res= Integer.parseInt(str);
+    
+  if(res >= 3000)
+  {
+  System.out.println("落札!");
+  }
+ else 
+  {
+	  System.out.println("落札ならず!");
+
+  }
+  
+}
+}
