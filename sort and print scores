@@ -1,0 +1,22 @@
+package jp.ac.hal;
+
+import java.io.IOException;
+import java.util.Arrays;
+
+public class sample7 {
+
+	 public static void main(String[] args) throws IOException {
+		int [] test = {22,57,80,66,50};
+		  
+			
+			 
+			 Arrays.sort((int[]) test);  	
+			for (int score:test) {
+		 
+				
+		 System.out.println(score +"です");
+	 }
+
+	
+		
+	 }}
